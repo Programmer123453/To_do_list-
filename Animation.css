@@ -1,0 +1,65 @@
+.flex-container{
+    display: flex;
+    justify-content: center !important; 
+    width: 100%;
+    min-height: 50%;
+    max-height: 100%;
+    align-items: center;
+    margin-top: 6%;
+
+
+}
+*{
+    margin:0; 
+    padding:0;
+}
+body{
+    height: 100vh;
+    background-color: #ACC8E5;
+}
+.card{
+    height: 30vh;
+    padding: 10vh;
+    background-color: #112A46;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    
+}
+input,input:focus,input:focus-within{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    width: 90%;
+    color: white;
+    font-family: 'Inter', sans-serif;
+
+}
+input::placeholder{
+    color: white;
+}
+.img-add{
+    width: 10%;
+    display: inline;
+    
+    
+}
+.align, .img-add{
+    margin-top: 3%;
+
+}
+img:hover{
+    opacity: 50%;
+    transition: 1s ease all;
+}
+.align{
+    max-height: 100px;
+    min-width: 200px;
+    max-width: 200px;
+ 
+}
+.for-toogle{
+    text-decoration: line-through;
+}
